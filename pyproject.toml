@@ -11,6 +11,7 @@ requires-python = ">=3.10"
 dependencies = [
   "dagster",
   "dagster-webserver",
+  "dagster-cloud",
   "requests",
   "snowflake-connector-python",
 ]
