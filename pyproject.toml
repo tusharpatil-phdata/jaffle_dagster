@@ -1,0 +1,12 @@
+[project]
+name = "jaffle_dagster"
+version = "0.1.0"
+description = "Dagster orchestration for jaffle_shop"
+requires-python = ">=3.10"
+
+dependencies = [
+  "dagster",
+  "dagster-webserver",
+  "requests",
+  "snowflake-connector-python",
+]
